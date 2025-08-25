@@ -6,8 +6,12 @@ local Global = getgenv and getgenv() or _G;
 local LibraryFunctions = {Notifications = {}, Connections = {}, Flags = {}}
 
 if not game:IsLoaded() then game.Loaded:wait() end
+
+-- // cleanups
 if game.CoreGui:FindFirstChild("Vice") then game.CoreGui:FindFirstChild("Vice"):Destroy() end 
 if game.CoreGui:FindFirstChild("NotifsGui") then game.CoreGui:FindFirstChild("NotifsGui"):Destroy() end
+if game.CoreGui:FindFirstChild("WatermarkUI") then game.CoreGui:FindFirstChild("WatermarkUI"):Destroy() end
+
 local UserInputService = game:GetService('UserInputService')
 local InputService = game:GetService('UserInputService')
 local TextService = game:GetService('TextService')
