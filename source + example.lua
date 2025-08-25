@@ -1,8 +1,8 @@
--- // official vicehub ui library source code
--- // self leak by v2ce
+-- // official vicehub ui library source code self leak by v2ce
 -- // shitty code from 2021
 
 local Global = getgenv and getgenv() or _G;
+-- // söylesene bana, tüm bunlar ne zaman sona erecek?
 local LibraryFunctions = {Notifications = {}, Connections = {}, Flags = {}}
 
 if not game:IsLoaded() then game.Loaded:wait() end
