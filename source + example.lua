@@ -1,4 +1,7 @@
--- // WARNING: This Repository is Licensed! You are not permitted to use/copy this User Interface library
+-- // official vicehub ui library source code
+-- // self leak by v2ce
+-- // shitty code from 2021
+
 local Global = getgenv and getgenv() or _G;
 local LibraryFunctions = {Notifications = {}, Connections = {}, Flags = {}}
 
