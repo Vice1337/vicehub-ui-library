@@ -4,8 +4,7 @@ VICE HUB UI LIBRARY FROM 2021 - 2023
 - unoptimized
 - still works fine
 - support all explotis
-- easy to use
-- have fun with it
+- enjoy it
 
 
 Features:
@@ -15,6 +14,8 @@ Features:
 - Button (with popup)
 - keybinds (buggy)
 - Colorpickers
+- Shitty search function
+- Shitty watermark
 - i don't even remember
 
 
